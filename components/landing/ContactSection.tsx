@@ -67,8 +67,8 @@ export default function ContactSection() {
                 </div>
                 <div className={styles.infoContent}>
                   <div className={styles.infoLabel}>Email</div>
-                  <a href="mailto:pranav@example.com" className={styles.infoValue}>
-                    pranav@example.com
+                  <a href="mailto:pranavdeokar6@gmail.com" className={styles.infoValue}>
+                    pranavdeokar6@gmail.com
                   </a>
                 </div>
               </motion.div>
@@ -79,7 +79,7 @@ export default function ContactSection() {
                 </div>
                 <div className={styles.infoContent}>
                   <div className={styles.infoLabel}>Location</div>
-                  <div className={styles.infoValue}>Nashik, Maharashtra, IN</div>
+                  <div className={styles.infoValue}>Kopargaon, Maharashtra, IN</div>
                 </div>
               </motion.div>
             </div>
@@ -131,7 +131,7 @@ export default function ContactSection() {
                 </div>
                 <div className={styles.codeLine}>
                   {'  '}<span className={styles.codeProperty}>email</span>:{' '}
-                  <span className={styles.codeString}>"pranav@example.com"</span>,
+                  <span className={styles.codeString}>"pranavdeokar6@gmail.com"</span>,
                 </div>
                 <div className={styles.codeLine}>
                   {'  '}<span className={styles.codeProperty}>status</span>:{' '}
