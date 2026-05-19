@@ -1,0 +1,229 @@
+
+> engineering-platform@1.0.0 predev
+> node -e "require('fs').rmSync('.next', { recursive: true, force: true })"
+
+
+> engineering-platform@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.4s
+ ○ Compiling / ...
+ ✓ Compiled / in 5.9s (1456 modules)
+ GET / 200 in 6162ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /admin/dashboard in 7.8s (1518 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 8043ms
+ GET /admin/dashboard 200 in 5216ms
+ GET / 200 in 5269ms
+ GET /admin/dashboard 200 in 978ms
+ GET /api/socials 200 in 6682ms
+ GET /api/research 200 in 7028ms
+ GET /api/projects 200 in 7038ms
+ GET /api/achievements 200 in 7042ms
+ ✓ Compiled /api/resume in 470ms (833 modules)
+ ✓ Compiled in 1ms (835 modules)
+ ✓ Compiled in 0ms (835 modules)
+ ✓ Compiled in 0ms (835 modules)
+ GET /api/certifications 200 in 1686ms
+ GET /api/socials 200 in 1589ms
+ GET /api/research 200 in 1300ms
+ GET /api/achievements 200 in 1306ms
+ GET /api/certifications 200 in 232ms
+ GET /api/socials 200 in 242ms
+ GET /api/research 200 in 231ms
+ GET /api/achievements 200 in 235ms
+ GET /api/socials 200 in 247ms
+ GET /api/projects 200 in 1782ms
+ GET /api/achievements 200 in 242ms
+ GET /api/research 200 in 266ms
+ GET /api/resume 200 in 2529ms
+ GET /api/projects 200 in 271ms
+ GET /api/resume 200 in 248ms
+ GET /api/projects 200 in 237ms
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\api\research\route.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:203:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:116:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:115:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:167:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js:1:58967
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js:1:59011)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\api\\research\\route.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/'
+}
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.4s (1739 modules)
+ GET / 500 in 2975ms
+ GET /_next/static/css/app/layout.css?v=1779192843167 404 in 94ms
+ GET /_next/static/css/app/admin/dashboard/page.css?v=1779192843167 404 in 89ms
+ GET / 200 in 68ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192868816 404 in 63ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192868816 404 in 72ms
+ GET /_next/static/css/app/layout.css?v=1779192868816 404 in 76ms
+ GET /_next/static/chunks/main-app.js?v=1779192868816 404 in 81ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 79ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 73ms
+ GET /_next/static/chunks/app/not-found.js 404 in 51ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 49ms
+ GET /admin/dashboard 200 in 62ms
+ GET /_next/static/css/app/layout.css?v=1779192874255 404 in 79ms
+ GET /_next/static/css/app/admin/dashboard/page.css?v=1779192874255 404 in 57ms
+ GET /_next/static/chunks/main-app.js?v=1779192874255 404 in 58ms
+ GET /_next/static/chunks/app/admin/dashboard/page.js 404 in 64ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 66ms
+ GET /_next/static/chunks/app/not-found.js 404 in 49ms
+ GET / 200 in 72ms
+ GET /_next/static/css/app/layout.css?v=1779192877246 404 in 60ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192877246 404 in 54ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192877246 404 in 58ms
+ GET /_next/static/chunks/main-app.js?v=1779192877246 404 in 65ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 64ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 58ms
+ GET /_next/static/chunks/app/not-found.js 404 in 75ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 74ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\goober.js'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/goober' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\goober.js', but to 'Error: Can't resolve './vendor-chunks/goober' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/goober (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\goober.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/react-hot-toast' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\react-hot-toast.js', but to 'Error: Can't resolve './vendor-chunks/react-hot-toast' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/react-hot-toast (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\react-hot-toast.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/motion-utils' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-utils.js', but to 'Error: Can't resolve './vendor-chunks/motion-utils' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/motion-utils (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-utils.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/motion-dom' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-dom.js', but to 'Error: Can't resolve './vendor-chunks/motion-dom' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/motion-dom (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-dom.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-route-loader\index.js
+ GET / 200 in 77ms
+ GET / 200 in 134ms
+ GET / 200 in 87ms
+ GET / 200 in 97ms
+[?25h

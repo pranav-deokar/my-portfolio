@@ -1,0 +1,539 @@
+.projects {
+  min-height: 100vh;
+  padding: 8rem 2rem;
+  position: relative;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionLabel {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-accent-blue);
+  padding: 0.5rem 1.5rem;
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-text-primary), var(--color-accent-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: var(--color-text-secondary);
+  max-width: 760px;
+  margin: 0 auto 2rem;
+}
+
+.filterButtons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.filterBtn,
+.actionButton,
+.navButton,
+.railItem {
+  transition: all 0.3s ease;
+}
+
+.filterBtn {
+  padding: 0.75rem 1.5rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(15, 22, 31, 0.98), rgba(9, 13, 19, 0.98));
+  border: 1px solid rgba(171, 208, 255, 0.12);
+  color: var(--color-text-secondary);
+  font-weight: 500;
+  font-size: 0.92rem;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 10px 24px rgba(0, 0, 0, 0.22);
+}
+
+.filterBtn:hover {
+  border-color: rgba(178, 227, 255, 0.22);
+  color: var(--color-text-primary);
+  box-shadow: 0 0 24px rgba(140, 188, 255, 0.12);
+}
+
+.filterBtn.active {
+  color: #f7fbff;
+  border-color: rgba(178, 227, 255, 0.28);
+  box-shadow: 0 0 32px rgba(140, 188, 255, 0.16), inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.theatre {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(240px, 0.65fr) minmax(0, 1.45fr) minmax(240px, 0.72fr);
+  gap: 1.5rem;
+  padding: 1.6rem;
+  border-radius: 34px;
+  border: 1px solid rgba(171, 208, 255, 0.12);
+  background:
+    radial-gradient(circle at top left, rgba(140, 188, 255, 0.08), transparent 22%),
+    linear-gradient(180deg, rgba(9, 12, 18, 0.98), rgba(5, 8, 13, 0.99));
+  box-shadow: 0 34px 110px rgba(0, 0, 0, 0.38), inset 0 1px 0 rgba(255, 255, 255, 0.05);
+  overflow: hidden;
+}
+
+.waveField {
+  position: absolute;
+  inset: auto -8% -8% -8%;
+  height: 60%;
+  background:
+    radial-gradient(circle at 18% 35%, rgba(140, 188, 255, 0.16), transparent 14%),
+    radial-gradient(circle at 58% 50%, rgba(140, 188, 255, 0.1), transparent 12%),
+    radial-gradient(circle at 84% 44%, rgba(178, 227, 255, 0.12), transparent 10%);
+  filter: blur(18px);
+  opacity: 0.9;
+  pointer-events: none;
+}
+
+.topBeam {
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 18% 20%, rgba(140, 188, 255, 0.08), transparent 16%),
+    radial-gradient(circle at 80% 14%, rgba(178, 227, 255, 0.07), transparent 18%);
+  pointer-events: none;
+}
+
+.projectRail,
+.focusStage,
+.detailColumn {
+  position: relative;
+  z-index: 1;
+}
+
+.projectRail,
+.detailColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 600px;
+}
+
+.railHeader,
+.detailLabel,
+.kicker {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.76rem;
+}
+
+.railHeader {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  color: rgba(178, 227, 255, 0.76);
+  padding-bottom: 1rem;
+}
+
+.railList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  flex: 1;
+}
+
+.railItem {
+  display: grid;
+  grid-template-columns: 46px 1fr;
+  gap: 0.9rem;
+  align-items: center;
+  text-align: left;
+  padding: 0.95rem 0;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid rgba(171, 208, 255, 0.08);
+  color: var(--color-text-secondary);
+}
+
+.railItem:hover,
+.railItemActive {
+  color: var(--color-text-primary);
+}
+
+.railItemNumber {
+  color: rgba(178, 227, 255, 0.44);
+  font-size: 0.85rem;
+  letter-spacing: 0.14em;
+}
+
+.railItemText {
+  display: flex;
+  flex-direction: column;
+  gap: 0.28rem;
+}
+
+.railItemText strong {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.railItemText small {
+  font-size: 0.82rem;
+  color: inherit;
+  opacity: 0.8;
+}
+
+.railItemActive .railItemNumber {
+  color: var(--color-accent-cyan);
+}
+
+.railControls {
+  display: flex;
+  gap: 0.8rem;
+  padding-top: 1rem;
+}
+
+.navButton {
+  width: 44px;
+  height: 44px;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(180deg, rgba(18, 26, 37, 0.98), rgba(10, 15, 22, 0.98));
+  border: 1px solid rgba(171, 208, 255, 0.14);
+  color: var(--color-text-primary);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+.navButton:hover {
+  border-color: rgba(178, 227, 255, 0.24);
+  box-shadow: 0 0 26px rgba(140, 188, 255, 0.14);
+}
+
+.focusStage {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 1.2rem;
+  min-height: 600px;
+}
+
+.signalDisplay {
+  position: relative;
+  padding: 1.65rem 1.8rem;
+  border-radius: 28px;
+  border: 1px solid rgba(171, 208, 255, 0.1);
+  background: linear-gradient(180deg, rgba(15, 20, 29, 0.98), rgba(8, 11, 17, 0.98));
+  overflow: hidden;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 16px 44px rgba(0, 0, 0, 0.28);
+}
+
+.signalBackdrop {
+  position: absolute;
+  inset: auto -16% -30% -10%;
+  height: 72%;
+  background-image:
+    radial-gradient(circle at 12% 40%, rgba(178, 227, 255, 0.08), transparent 12%),
+    linear-gradient(180deg, transparent, rgba(0, 0, 0, 0.2));
+  pointer-events: none;
+}
+
+.signalMeta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  position: relative;
+  z-index: 1;
+}
+
+.metaBadge,
+.featuredBadge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.45rem 0.9rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.metaBadge {
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.18);
+  color: var(--color-accent-cyan);
+}
+
+.featuredBadge {
+  background: rgba(178, 227, 255, 0.14);
+  border: 1px solid rgba(178, 227, 255, 0.22);
+  color: #f5fbff;
+  box-shadow: 0 0 22px rgba(140, 188, 255, 0.14);
+}
+
+.titleCluster {
+  position: relative;
+  z-index: 1;
+  margin-top: 1.6rem;
+}
+
+.kicker {
+  color: rgba(178, 227, 255, 0.6);
+}
+
+.projectTitle {
+  margin-top: 0.7rem;
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  line-height: 0.98;
+  color: var(--color-text-primary);
+}
+
+.projectLead {
+  margin-top: 1rem;
+  max-width: 680px;
+  font-size: 1rem;
+  line-height: 1.85;
+  color: #cbd9ea;
+}
+
+.infoStrips {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.8rem;
+  margin-top: 1.6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.infoStrip {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  padding: 0.95rem 0;
+  border-top: 1px solid rgba(171, 208, 255, 0.1);
+}
+
+.infoLabel {
+  color: rgba(178, 227, 255, 0.58);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.76rem;
+}
+
+.infoValue {
+  color: #e4eefb;
+  font-size: 0.98rem;
+}
+
+.techStream {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.techPill {
+  padding: 0.5rem 0.95rem;
+  border-radius: 999px;
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.14);
+  color: #dcecff;
+  font-size: 0.84rem;
+}
+
+.waveStage {
+  position: relative;
+  min-height: 260px;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid rgba(171, 208, 255, 0.08);
+  background: linear-gradient(180deg, rgba(8, 10, 16, 0.98), rgba(5, 7, 11, 0.98));
+}
+
+.waveRibbon,
+.waveRibbonSecondary {
+  position: absolute;
+  inset: 16% -10% auto -10%;
+  height: 160px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.95;
+}
+
+.waveRibbon {
+  background-image:
+    radial-gradient(circle at 20% 48%, rgba(140, 188, 255, 0.28), transparent 18%),
+    repeating-radial-gradient(
+      ellipse at 38% 50%,
+      rgba(128, 182, 255, 0.28) 0 1px,
+      transparent 1px 10px
+    );
+  transform: skewY(-6deg) scaleX(1.25);
+  filter: blur(0.3px);
+}
+
+.waveRibbonSecondary {
+  inset: auto -6% 12% -6%;
+  height: 140px;
+  background-image:
+    radial-gradient(circle at 72% 45%, rgba(178, 227, 255, 0.24), transparent 16%),
+    repeating-radial-gradient(
+      ellipse at 62% 54%,
+      rgba(140, 188, 255, 0.22) 0 1px,
+      transparent 1px 11px
+    );
+  transform: skewY(5deg) scaleX(1.18);
+  opacity: 0.78;
+}
+
+.waveDots {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(circle at 16% 44%, rgba(178, 227, 255, 0.85) 0 2px, transparent 2px),
+    radial-gradient(circle at 28% 57%, rgba(140, 188, 255, 0.55) 0 1.5px, transparent 1.5px),
+    radial-gradient(circle at 48% 50%, rgba(178, 227, 255, 0.45) 0 1.5px, transparent 1.5px),
+    radial-gradient(circle at 70% 60%, rgba(140, 188, 255, 0.52) 0 2px, transparent 2px),
+    radial-gradient(circle at 84% 42%, rgba(178, 227, 255, 0.72) 0 2px, transparent 2px);
+  opacity: 0.85;
+}
+
+.detailColumn {
+  gap: 1.25rem;
+}
+
+.detailBlock {
+  padding: 0 0 1.25rem;
+  border-bottom: 1px solid rgba(171, 208, 255, 0.08);
+}
+
+.detailLabel {
+  color: rgba(178, 227, 255, 0.58);
+}
+
+.detailBlock p {
+  margin-top: 0.65rem;
+  color: #cfdded;
+  font-size: 0.96rem;
+  line-height: 1.85;
+}
+
+.actionCluster {
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.actionButton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.95rem 1.25rem;
+  border-radius: 999px;
+  background: linear-gradient(180deg, rgba(18, 26, 37, 0.98), rgba(10, 15, 22, 0.98));
+  border: 1px solid rgba(171, 208, 255, 0.14);
+  color: var(--color-text-primary);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+.actionButton:hover {
+  border-color: rgba(178, 227, 255, 0.24);
+  box-shadow: 0 0 26px rgba(140, 188, 255, 0.14);
+  transform: translateY(-2px);
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 4rem 0;
+  color: var(--color-text-secondary);
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(140, 188, 255, 0.16);
+  border-top-color: var(--color-accent-blue);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.emptyState {
+  text-align: center;
+  padding: 4rem 0;
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+}
+
+@media (max-width: 1180px) {
+  .theatre {
+    grid-template-columns: 1fr;
+  }
+
+  .projectRail,
+  .detailColumn,
+  .focusStage {
+    min-height: auto;
+  }
+
+  .railControls {
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects {
+    padding: 5rem 1.5rem;
+  }
+
+  .filterButtons {
+    flex-wrap: wrap;
+  }
+
+  .theatre {
+    padding: 1.15rem;
+    border-radius: 26px;
+  }
+
+  .projectTitle {
+    font-size: clamp(1.8rem, 9vw, 2.8rem);
+  }
+
+  .infoStrips {
+    grid-template-columns: 1fr;
+  }
+
+  .actionCluster {
+    width: 100%;
+  }
+}

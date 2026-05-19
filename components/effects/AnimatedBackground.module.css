@@ -1,0 +1,111 @@
+.backgroundContainer {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  overflow: hidden;
+  background:
+    radial-gradient(circle at top, rgba(140, 188, 255, 0.08), transparent 22%),
+    radial-gradient(circle at 18% 26%, rgba(104, 160, 255, 0.07), transparent 20%),
+    var(--color-background);
+}
+
+.canvas {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.gradient1 {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(140, 188, 255, 0.08) 0%, transparent 50%);
+  animation: float1 20s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+.gradient2 {
+  position: absolute;
+  top: 50%;
+  right: -30%;
+  width: 80%;
+  height: 80%;
+  background: radial-gradient(circle, rgba(178, 227, 255, 0.06) 0%, transparent 50%);
+  animation: float2 25s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+.gradient3 {
+  position: absolute;
+  bottom: -40%;
+  left: 20%;
+  width: 70%;
+  height: 70%;
+  background: radial-gradient(circle, rgba(127, 178, 255, 0.05) 0%, transparent 50%);
+  animation: float3 30s ease-in-out infinite;
+  mix-blend-mode: screen;
+}
+
+.noise {
+  position: absolute;
+  inset: 0;
+  background-image:
+    radial-gradient(rgba(255, 255, 255, 0.06) 0.7px, transparent 0.7px);
+  background-size: 7px 7px;
+  opacity: 0.04;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+
+.vignette {
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, transparent 45%, rgba(0, 0, 0, 0.42) 100%);
+  pointer-events: none;
+}
+
+@keyframes float1 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(10%, 10%) scale(1.1);
+  }
+  66% {
+    transform: translate(-5%, 15%) scale(0.9);
+  }
+}
+
+@keyframes float2 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(-10%, -10%) scale(1.05);
+  }
+  66% {
+    transform: translate(5%, -15%) scale(0.95);
+  }
+}
+
+@keyframes float3 {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  33% {
+    transform: translate(15%, -5%) scale(1.08);
+  }
+  66% {
+    transform: translate(-10%, 10%) scale(0.92);
+  }
+}
+
+@media (max-width: 768px) {
+  .gradient1,
+  .gradient2,
+  .gradient3 {
+    opacity: 0.6;
+  }
+}

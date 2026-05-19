@@ -1,0 +1,999 @@
+
+> engineering-platform@1.0.0 dev
+> next dev
+
+  ▲ Next.js 14.2.35
+  - Local:        http://localhost:3000
+  - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 2.5s
+ ○ Compiling / ...
+ ✓ Compiled / in 1862ms (1289 modules)
+ GET / 200 in 2131ms
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 675ms (1292 modules)
+ GET /.well-known/appspecific/com.chrome.devtools.json 404 in 1051ms
+ GET / 200 in 117ms
+ ○ Compiling /api/socials ...
+ ✓ Compiled /api/socials in 962ms (797 modules)
+ ✓ Compiled (803 modules)
+ GET /api/research 200 in 2169ms
+ GET /api/achievements 200 in 2221ms
+ GET /api/projects 200 in 2367ms
+ GET /api/research 200 in 322ms
+ GET /api/achievements 200 in 275ms
+ GET /api/socials 200 in 2559ms
+ GET /api/projects 200 in 362ms
+ GET /api/socials 200 in 413ms
+ GET /firebase-messaging-sw.js 404 in 175ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at SkillsSection (webpack-internal:///(ssr)/./components/landing/SkillsSection.tsx:171:90)
+    at Lazy
+    at main
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:347:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:367:11)
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:347:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:367:11)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:322:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:202:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:112:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:564:13)
+    at Lazy
+    at r7 (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:19155)
+    at r7 (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:19155)
+    at ServerInsertedHTMLProvider (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:24939)
+Warning: React.jsx: type is invalid -- expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at SkillsSection (webpack-internal:///(ssr)/./components/landing/SkillsSection.tsx:171:90)
+    at Lazy
+    at main
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:347:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:367:11)
+    at Lazy
+    at InnerLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:242:11)
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at NotFoundErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:76:9)
+    at NotFoundBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js:84:11)
+    at LoadingBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:347:11)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at InnerScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:153:9)
+    at ScrollAndFocusHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:228:11)
+    at RenderFromTemplateContext (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js:16:44)
+    at Lazy
+    at OuterLayoutRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/layout-router.js:367:11)
+    at Lazy
+    at body
+    at html
+    at RedirectErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:73:9)
+    at RedirectBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/redirect-boundary.js:81:11)
+    at ReactDevOverlay (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/ReactDevOverlay.js:87:9)
+    at HotReload (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/react-dev-overlay/app/hot-reloader-client.js:322:11)
+    at Router (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:202:11)
+    at ErrorBoundaryHandler (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:112:9)
+    at ErrorBoundary (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/error-boundary.js:158:11)
+    at AppRouter (webpack-internal:///(ssr)/./node_modules/next/dist/client/components/app-router.js:564:13)
+    at Lazy
+    at r7 (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:19155)
+    at r7 (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:19155)
+    at ServerInsertedHTMLProvider (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:40:24939)
+ ⨯ Internal error: Error: Element type is invalid: expected a string (for built-in components) or a class/function (for composite components) but got: undefined. You likely forgot to export your component from the file it's defined in, or you might have mixed up default and named imports.
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:46775)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at aC (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:52874)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:50095)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42336
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42822)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at aC (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:52874)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:50095)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42336
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42822)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at aC (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:52874)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:50095)
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:45321)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:44769)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at aC (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:52874)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:50095)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42336
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42822)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at aC (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:52874)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:50095)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42336
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42822)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42336
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:42822)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at ab (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:11808)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16871
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:16908)
+    at aw (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:46505)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:49776)
+    at aj (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:53793)
+    at aC (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:52874)
+    at a_ (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\compiled\next-server\app-page.runtime.dev.js:35:50095)
+digest: "651532639"
+ GET / 500 in 554ms
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ GET /firebase-messaging-sw.js 404 in 279ms
+ ○ Compiling /_not-found ...
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js:1:59724
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js:1:59768)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\_not-found\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/'
+}
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ GET / 500 in 1434ms
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ ⚠ ./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+
+./components/landing/SkillsSection.tsx
+Attempted import error: 'MonitorCog' is not exported from '__barrel_optimize__?names=BarChart3,BrainCircuit,CloudCog,Cpu,DatabaseZap,MonitorCog,ServerCog!=!lucide-react' (imported as 'MonitorCog').
+
+Import trace for requested module:
+./components/landing/SkillsSection.tsx
+ GET /admin/dashboard 200 in 1719ms
+ GET /_next/static/css/app/layout.css?v=1779192398050 404 in 113ms
+ GET /_next/static/chunks/main-app.js?v=1779192398050 404 in 135ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 132ms
+ GET /_next/static/chunks/app/not-found.js 404 in 123ms
+ GET /firebase-messaging-sw.js 404 in 30ms
+ ✓ Compiled /admin/dashboard in 719ms (1575 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 218ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192410612 404 in 79ms
+ GET /_next/static/css/app/layout.css?v=1779192410612 404 in 88ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192410612 404 in 77ms
+ GET /_next/static/chunks/main-app.js?v=1779192410612 404 in 40ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 42ms
+ GET /_next/static/chunks/app/not-found.js 404 in 44ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 43ms
+ GET /firebase-messaging-sw.js 404 in 58ms
+ GET / 200 in 91ms
+ GET /_next/static/css/app/layout.css?v=1779192422598 404 in 89ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192422598 404 in 90ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192422598 404 in 84ms
+ GET /_next/static/chunks/webpack.js?v=1779192422598 404 in 82ms
+ GET /_next/static/chunks/main-app.js?v=1779192422598 404 in 80ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 83ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 59ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 45ms
+ GET /_next/static/chunks/app/not-found.js 404 in 44ms
+ GET / 200 in 81ms
+ GET /_next/static/css/app/layout.css?v=1779192423740 404 in 76ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192423740 404 in 72ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192423740 404 in 69ms
+ GET /_next/static/chunks/webpack.js?v=1779192423740 404 in 73ms
+ GET /_next/static/chunks/main-app.js?v=1779192423740 404 in 71ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 67ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 39ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 38ms
+ GET /_next/static/chunks/app/not-found.js 404 in 37ms
+ GET / 200 in 51ms
+ GET /_next/static/css/app/layout.css?v=1779192424084 404 in 74ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192424084 404 in 71ms
+ GET /_next/static/chunks/webpack.js?v=1779192424084 404 in 58ms
+ GET /_next/static/chunks/main-app.js?v=1779192424084 404 in 55ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192424084 404 in 70ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 53ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 50ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 47ms
+ GET /_next/static/chunks/app/not-found.js 404 in 46ms
+ GET /firebase-messaging-sw.js 404 in 75ms
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30188
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30237)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/dashboard'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:335
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ GET /firebase-messaging-sw.js 404 in 892ms
+ GET /admin/dashboard 500 in 2788ms
+ GET /firebase-messaging-sw.js 404 in 39ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, lstat 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks'
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/lucide-react' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\lucide-react.js', but to 'Error: Can't resolve './vendor-chunks/lucide-react' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/lucide-react (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\lucide-react.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\handle-externals.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/motion-utils' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-utils.js', but to 'Error: Can't resolve './vendor-chunks/motion-utils' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/motion-utils (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-utils.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\handle-externals.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving './vendor-chunks/motion-dom' in C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server for build dependencies doesn't lead to expected result 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-dom.js', but to 'Error: Can't resolve './vendor-chunks/motion-dom' in 'C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server'' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ./vendor-chunks/motion-dom (expected C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\vendor-chunks\motion-dom.js)
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\_not-found\page.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\handle-externals.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30188
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30237)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/dashboard'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:335
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ GET /admin/dashboard 500 in 27ms
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30188
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30237)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/dashboard'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:335
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ GET /admin/dashboard 500 in 20ms
+ GET /firebase-messaging-sw.js 404 in 44ms
+ GET / 200 in 59ms
+ GET /_next/static/css/app/layout.css?v=1779192464559 404 in 66ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192464559 404 in 66ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192464559 404 in 67ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 66ms
+ GET /_next/static/chunks/webpack.js?v=1779192464559 404 in 64ms
+ GET /_next/static/chunks/main-app.js?v=1779192464559 404 in 63ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 44ms
+ GET /_next/static/chunks/app/not-found.js 404 in 37ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 43ms
+ GET / 200 in 75ms
+ GET /_next/static/css/app/layout.css?v=1779192464873 404 in 52ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192464873 404 in 57ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192464873 404 in 59ms
+ GET /_next/static/chunks/webpack.js?v=1779192464873 404 in 74ms
+ GET /_next/static/chunks/main-app.js?v=1779192464873 404 in 74ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 71ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 63ms
+ GET /_next/static/chunks/app/not-found.js 404 in 53ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 56ms
+ GET /firebase-messaging-sw.js 404 in 62ms
+ GET / 200 in 73ms
+ GET /_next/static/css/app/(main)/page.css?v=1779192468415 404 in 50ms
+ GET /_next/static/css/app/(main)/layout.css?v=1779192468415 404 in 54ms
+ GET /_next/static/css/app/layout.css?v=1779192468415 404 in 58ms
+ GET /_next/static/chunks/webpack.js?v=1779192468415 404 in 58ms
+ GET /_next/static/chunks/main-app.js?v=1779192468415 404 in 57ms
+ GET /_next/static/chunks/app-pages-internals.js 404 in 56ms
+ GET /_next/static/chunks/app/(main)/page.js 404 in 43ms
+ GET /_next/static/chunks/app/(main)/layout.js 404 in 43ms
+ GET /_next/static/chunks/app/not-found.js 404 in 43ms
+ ⨯ Error: Cannot find module './276.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30188
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\admin\dashboard\page.js:1:30237)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:84
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:103:26)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36)
+    at async DevServer.findPageComponents (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:577:20)
+    at async DevServer.renderPageComponent (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1910:24)
+    at async DevServer.renderToResponseImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:1962:32)
+    at async DevServer.pipeImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:922:25)
+    at async NextNodeServer.handleCatchallRenderRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:272:17)
+    at async DevServer.handleRequestImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\base-server.js:818:17)
+    at async C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:339:20
+    at async Span.traceAsyncFn (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\trace\trace.js:154:20)
+    at async DevServer.handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\next-dev-server.js:336:24)
+    at async invokeRender (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:179:21)
+    at async handleRequest (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:359:24)
+    at async requestHandlerImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js:383:13)
+    at async Server.requestListener (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js:141:13) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ],
+  page: '/admin/dashboard'
+}
+ ⨯ Error: Cannot find module './682.js'
+Require stack:
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\app\(main)\page.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\build\utils.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-middleware.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\dev\hot-reloader-webpack.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-utils\setup-dev-bundler.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\router-server.js
+- C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\lib\start-server.js
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1410:15)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:55:36
+    at defaultResolveImpl (node:internal/modules/cjs/loader:1051:19)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1056:22)
+    at Module._load (node:internal/modules/cjs/loader:1219:37)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at __webpack_require__.f.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:198:28)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:111:40
+    at Array.reduce (<anonymous>)
+    at __webpack_require__.e (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:110:67)
+    at Array.map (<anonymous>)
+    at __webpack_require__.X (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\webpack-runtime.js:162:22)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:335
+    at Object.<anonymous> (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\.next\server\pages\_document.js:1:376)
+    at Module._compile (node:internal/modules/cjs/loader:1738:14)
+    at Object..js (node:internal/modules/cjs/loader:1871:10)
+    at Module.load (node:internal/modules/cjs/loader:1470:32)
+    at Module._load (node:internal/modules/cjs/loader:1290:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:238:24)
+    at Module.<anonymous> (node:internal/modules/cjs/loader:1493:12)
+    at mod.require (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require-hook.js:65:28)
+    at require (node:internal/modules/helpers:152:16)
+    at requirePage (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\require.js:109:84)
+    at C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:72:65
+    at async Promise.all (index 0)
+    at async loadComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\load-components.js:71:33)
+    at async DevServer.findPageComponentsImpl (C:\Users\prana\Downloads\engineering-platform (1)\engineering-platform\node_modules\next\dist\server\next-server.js:714:36) {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: [
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\webpack-runtime.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\.next\\server\\app\\(main)\\page.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\require.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\load-components.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\build\\utils.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-middleware.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\dev\\hot-reloader-webpack.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-utils\\setup-dev-bundler.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\router-server.js',
+    'C:\\Users\\prana\\Downloads\\engineering-platform (1)\\engineering-platform\\node_modules\\next\\dist\\server\\lib\\start-server.js'
+  ]
+}
+ GET /admin/dashboard 500 in 26ms
+ GET / 200 in 49ms
+[?25h

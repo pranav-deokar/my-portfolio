@@ -1,0 +1,307 @@
+.achievements {
+  min-height: 100vh;
+  padding: 8rem 2rem;
+  position: relative;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.sectionLabel {
+  display: inline-block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--color-accent-blue);
+  padding: 0.5rem 1.5rem;
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  border-radius: 100px;
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  background: linear-gradient(135deg, var(--color-text-primary), var(--color-accent-blue));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  font-size: 1.15rem;
+  color: var(--color-text-secondary);
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.spotlightSystem {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.ribbon,
+.spotlight {
+  border-radius: 28px;
+  border: 1px solid rgba(171, 208, 255, 0.12);
+  background: linear-gradient(180deg, rgba(12, 17, 24, 0.98), rgba(7, 10, 16, 0.98));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 18px 44px rgba(0, 0, 0, 0.28);
+}
+
+.ribbon {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 0.85rem;
+}
+
+.ribbonStop {
+  padding: 1rem;
+  border-radius: 20px;
+  text-align: left;
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(171, 208, 255, 0.08);
+  color: var(--color-text-secondary);
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.ribbonStop strong {
+  color: inherit;
+  font-size: 1rem;
+}
+
+.ribbonStop small {
+  color: inherit;
+  opacity: 0.8;
+}
+
+.stopIndex {
+  color: rgba(178, 227, 255, 0.5);
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+.ribbonStop:hover,
+.ribbonStopActive {
+  color: var(--color-text-primary);
+  border-color: rgba(171, 208, 255, 0.18);
+  box-shadow: 0 0 24px rgba(140, 188, 255, 0.12);
+}
+
+.spotlight {
+  position: relative;
+  padding: 1.8rem;
+  overflow: hidden;
+}
+
+.spotlightGlow {
+  position: absolute;
+  inset: auto -10% -18% 20%;
+  height: 50%;
+  background:
+    radial-gradient(circle at 25% 40%, rgba(140, 188, 255, 0.14), transparent 16%),
+    radial-gradient(circle at 65% 55%, rgba(178, 227, 255, 0.1), transparent 16%);
+  filter: blur(18px);
+}
+
+.spotlightHeader,
+.achievementTitle,
+.organization,
+.description,
+.metaLine,
+.tagLine,
+.viewCertificate {
+  position: relative;
+  z-index: 1;
+}
+
+.spotlightHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.iconWrap {
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(140, 188, 255, 0.08);
+  border: 2px solid rgba(171, 208, 255, 0.16);
+}
+
+.icon {
+  color: var(--color-accent-blue);
+  filter: drop-shadow(0 0 10px var(--color-accent-blue));
+}
+
+.goldIcon {
+  color: #ffd700;
+  filter: drop-shadow(0 0 15px #ffd700);
+}
+
+.headerText {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+}
+
+.positionBadge,
+.featuredBadge {
+  display: inline-flex;
+  align-items: center;
+  width: fit-content;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.positionBadge {
+  background: linear-gradient(135deg, var(--color-accent-blue), var(--color-accent-cyan));
+  color: #04101f;
+}
+
+.featuredBadge {
+  background: rgba(178, 227, 255, 0.14);
+  border: 1px solid rgba(178, 227, 255, 0.22);
+  color: #f5fbff;
+}
+
+.achievementTitle {
+  margin-top: 1.4rem;
+  font-size: clamp(2rem, 5vw, 3rem);
+  line-height: 1.08;
+  color: var(--color-text-primary);
+}
+
+.organization {
+  margin-top: 0.8rem;
+  color: var(--color-accent-blue);
+  font-weight: 500;
+}
+
+.description {
+  margin-top: 1rem;
+  color: #c7d6e7;
+  line-height: 1.9;
+}
+
+.metaLine {
+  margin-top: 1.35rem;
+}
+
+.date {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+}
+
+.tagLine {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.4rem;
+}
+
+.tag {
+  padding: 0.45rem 0.9rem;
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.16);
+  border-radius: 999px;
+  color: #d6eaff;
+  font-size: 0.84rem;
+}
+
+.viewCertificate {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  width: fit-content;
+  margin-top: 1.6rem;
+  padding: 0.8rem 1.45rem;
+  background: linear-gradient(180deg, rgba(18, 26, 37, 0.98), rgba(10, 15, 22, 0.98));
+  border: 1px solid rgba(171, 208, 255, 0.14);
+  border-radius: 999px;
+  color: var(--color-text-primary);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.05), 0 14px 30px rgba(0, 0, 0, 0.28);
+}
+
+.viewCertificate:hover {
+  border-color: rgba(178, 227, 255, 0.24);
+  box-shadow: 0 0 26px rgba(140, 188, 255, 0.14);
+  transform: translateY(-2px);
+}
+
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 4rem 0;
+  color: var(--color-text-secondary);
+}
+
+.loader {
+  width: 50px;
+  height: 50px;
+  border: 3px solid rgba(140, 188, 255, 0.18);
+  border-top-color: var(--color-accent-blue);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 4rem 0;
+  color: var(--color-text-secondary);
+}
+
+.emptyState svg {
+  opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+  .achievements {
+    padding: 5rem 1.5rem;
+  }
+
+  .ribbon {
+    grid-template-columns: 1fr;
+  }
+
+  .spotlight {
+    padding: 1.35rem;
+  }
+}
