@@ -15,6 +15,7 @@ interface Project {
   github_url?: string;
   live_url?: string;
   image_url?: string;
+  images?: string[];
   status: string;
   featured: boolean;
   categories?: string[];
@@ -33,6 +34,7 @@ export default function ProjectsSection() {
   const [loading, setLoading] = useState(true);
   const [filter, setFilter] = useState<'all' | 'featured'>('all');
   const [activeIndex, setActiveIndex] = useState(0);
+  const [galleryIndex, setGalleryIndex] = useState(0);
 
   useEffect(() => {
     const fetchProjects = async () => {
@@ -64,6 +66,8 @@ export default function ProjectsSection() {
     if (activeIndex > filteredProjects.length - 1) {
       setActiveIndex(0);
     }
+
+    setGalleryIndex(0);
   }, [activeIndex, filteredProjects.length]);
 
   const activeProject = filteredProjects[activeIndex];
@@ -113,7 +117,6 @@ export default function ProjectsSection() {
           <span className={styles.sectionLabel}>Project Showcase</span>
           <h2 className={styles.title}>Project Theatre</h2>
           <p className={styles.subtitle}>
-            A focused reveal system for portfolio work, with a darker signal-stage layout instead of repeating cards.
           </p>
 
           <div className={styles.filterButtons}>
@@ -242,6 +245,59 @@ export default function ProjectsSection() {
                 <span className={styles.detailLabel}>Project note</span>
                 <p>{activeProject.description}</p>
               </div>
+
+              {activeProject.image_url ? (
+                <div className={styles.detailBlock}>
+                  <span className={styles.detailLabel}>Cover Image</span>
+                  <div className={styles.projectImageContainer}>
+                    <img 
+                      src={activeProject.image_url} 
+                      alt={activeProject.title}
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).style.display = 'none';
+                      }}
+                    />
+                  </div>
+                </div>
+              ) : null}
+
+              {activeProject.images && activeProject.images.length > 0 ? (
+                <div className={styles.detailBlock}>
+                  <span className={styles.detailLabel}>Gallery</span>
+                  <div className={styles.projectGalleryContainer}>
+                    <div className={styles.galleryImageDisplay}>
+                      <img 
+                        src={activeProject.images[galleryIndex]} 
+                        alt={`${activeProject.title} - ${galleryIndex + 1}`}
+                        onError={(e) => {
+                          (e.target as HTMLImageElement).style.display = 'none';
+                        }}
+                      />
+                    </div>
+                    {activeProject.images.length > 1 ? (
+                      <div className={styles.galleryNav}>
+                        <button 
+                          type="button"
+                          className={styles.galleryNavButton}
+                          onClick={() => setGalleryIndex((g) => (g - 1 + activeProject.images!.length) % activeProject.images!.length)}
+                        >
+                          <ChevronLeft size={14} />
+                        </button>
+                        <span className={styles.galleryCounter}>
+                          {galleryIndex + 1} / {activeProject.images.length}
+                        </span>
+                        <button 
+                          type="button"
+                          className={styles.galleryNavButton}
+                          onClick={() => setGalleryIndex((g) => (g + 1) % activeProject.images!.length)}
+                        >
+                          <ChevronRight size={14} />
+                        </button>
+                      </div>
+                    ) : null}
+                  </div>
+                </div>
+              ) : null}
 
               {activeProject.tags && activeProject.tags.length > 0 ? (
                 <div className={styles.detailBlock}>

@@ -112,7 +112,6 @@ export default function SkillsSection() {
           <span className={styles.sectionLabel}>Technical Expertise</span>
           <h2 className={styles.title}>Skills Constellation</h2>
           <p className={styles.subtitle}>
-            A linked system of engineering domains, with each node feeding the same full-stack and research pipeline.
           </p>
         </motion.div>
 

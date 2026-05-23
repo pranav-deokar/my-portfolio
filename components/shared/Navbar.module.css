@@ -4,15 +4,14 @@
   left: 50%;
   transform: translateX(-50%);
   z-index: 900;
-  width: calc(100% - 4rem);
-  max-width: 1200px;
+  /*width: calc(100% - 4rem);
+  max-width: 800px;*/
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .navbar.scrolled {
   top: 1rem;
-  width: calc(100% - 2rem);
-  max-width: 900px;
+  backdrop-filter: blur(24px);
 }
 
 .navContent {
@@ -25,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 2rem;
+  gap: 1rem;
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.42), 0 0 0 1px rgba(255, 255, 255, 0.03), 0 0 30px rgba(140, 188, 255, 0.08);
 }
 
@@ -65,15 +64,15 @@
 .navItems {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  gap: 0.2rem;
   flex: 1;
   justify-content: center;
 }
 
 .navItem {
   position: relative;
-  padding: 0.6rem 1rem;
-  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--color-text-secondary);
   transition: color 0.3s ease;
@@ -144,8 +143,103 @@
     width: calc(100% - 2rem);
   }
   
+  .navContent {
+    padding: 0.6rem 1rem;
+    gap: 1rem;
+  }
+  
   .navItems {
     gap: 0.25rem;
+    flex: 1;
+  }
+  
+  .navItem {
+    padding: 0.5rem 0.75rem;
+    font-size: 0.8rem;
+  }
+  
+  .ctaButton {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    top: 1rem;
+    width: calc(100% - 1rem);
+    max-width: none;
+  }
+  
+  .navbar.scrolled {
+    top: 0.5rem;
+    width: calc(100% - 1rem);
+  }
+  
+  .navContent {
+    padding: 0.5rem 0.75rem;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+  
+  .logo {
+    order: 1;
+    flex-shrink: 0;
+  }
+  
+  .logoText {
+    font-size: 1.2rem;
+  }
+  
+  .navItems {
+    order: 3;
+    width: 100%;
+    gap: 0.25rem;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  
+  .navItem {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.75rem;
+  }
+  
+  .ctaButton {
+    order: 2;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.75rem;
+    flex-shrink: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    top: 0.75rem;
+    width: calc(100% - 0.5rem);
+  }
+  
+  .navbar.scrolled {
+    top: 0.5rem;
+  }
+  
+  .navContent {
+    padding: 0.4rem 0.5rem;
+    gap: 0.3rem;
+    border-radius: 50px;
+  }
+  
+  .logoText {
+    font-size: 1rem;
+  }
+  
+  .navItem {
+    padding: 0.3rem 0.5rem;
+    font-size: 0.65rem;
+  }
+  
+  .ctaButton {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.65rem;
   }
   
   .navItem {

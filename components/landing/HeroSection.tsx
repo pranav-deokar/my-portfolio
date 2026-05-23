@@ -137,12 +137,11 @@ export default function HeroSection() {
             <div className={styles.imageBorder} />
             <div className={styles.imageFrame}>
               {/* Placeholder for professional image */}
-              <div className={styles.imagePlaceholder}>
-                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5">
-                  <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
-                  <circle cx="12" cy="7" r="4" />
-                </svg>
-              </div>
+             <img
+  src="/profile.jpeg"
+  alt="Pranav Deokar"
+  className={styles.profileImage}
+/>
             </div>
             <div className={styles.orbitalRing} />
             <div className={styles.orbitalDot} />

@@ -1,0 +1,423 @@
+.certifications {
+  min-height: 100vh;
+  padding: 8rem 2rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+.header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.sectionLabel {
+  display: inline-block;
+
+  font-size: 0.82rem;
+  font-weight: 600;
+
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+
+  color: var(--color-accent-blue);
+
+  padding: 0.55rem 1.4rem;
+
+  background: rgba(140, 188, 255, 0.08);
+
+  border: 1px solid rgba(171, 208, 255, 0.16);
+
+  border-radius: 999px;
+
+  margin-bottom: 1.5rem;
+}
+
+.title {
+  font-size: clamp(2.8rem, 5vw, 4.8rem);
+  font-weight: 700;
+
+  background:
+    linear-gradient(
+      135deg,
+      var(--color-text-primary),
+      var(--color-accent-blue)
+    );
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  max-width: 760px;
+
+  margin: 0 auto;
+
+  color: var(--color-text-secondary);
+
+  line-height: 1.8;
+
+  font-size: 1.05rem;
+}
+
+/* STACK SYSTEM */
+
+.certificationSystem {
+  position: relative;
+
+  width: 100%;
+  height: 760px;
+
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ribbon {
+  position: relative;
+
+  width: 100%;
+  height: 100%;
+}
+
+/* CARD */
+
+.ribbonStop {
+  position: absolute;
+
+  top: 50%;
+  left: 50%;
+
+  width: 240px;
+  height: 460px;
+
+  border-radius: 34px;
+
+  overflow: hidden;
+
+  border: 1px solid rgba(171,208,255,0.12);
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(10,15,22,0.98),
+      rgba(5,8,13,0.98)
+    );
+
+  transform-style: preserve-3d;
+
+  transition:
+    transform 0.75s cubic-bezier(0.22,1,0.36,1),
+    width 0.75s cubic-bezier(0.22,1,0.36,1),
+    height 0.75s cubic-bezier(0.22,1,0.36,1),
+    opacity 0.45s ease,
+    box-shadow 0.45s ease;
+
+  cursor: pointer;
+
+  box-shadow:
+    0 30px 80px rgba(0,0,0,0.38),
+    inset 0 1px 0 rgba(255,255,255,0.04);
+
+  backdrop-filter: blur(18px);
+}
+
+/* GLOW */
+
+.ribbonStop::before {
+  content: '';
+
+  position: absolute;
+  inset: 0;
+
+  background:
+    radial-gradient(
+      circle at top right,
+      rgba(140,188,255,0.12),
+      transparent 26%
+    );
+
+  z-index: 2;
+
+  pointer-events: none;
+}
+
+.ribbonStop::after {
+  content: '';
+
+  position: absolute;
+  inset: auto -20% -20% -20%;
+
+  height: 45%;
+
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      rgba(140,188,255,0.12),
+      transparent 50%
+    );
+
+  filter: blur(40px);
+
+  opacity: 0;
+
+  transition: opacity 0.5s ease;
+
+  pointer-events: none;
+}
+
+.ribbonStop:hover::after {
+  opacity: 1;
+}
+
+/* ACTIVE CARD */
+
+.ribbonStopActive {
+  width: 520px;
+  height: 620px;
+
+  border-color: rgba(178,227,255,0.22);
+
+  box-shadow:
+    0 50px 140px rgba(0,0,0,0.6),
+    0 0 50px rgba(140,188,255,0.14);
+}
+
+/* IMAGE */
+
+.certificateImage {
+  width: 100%;
+  height: calc(100% - 110px);
+
+  overflow: hidden;
+
+  position: relative;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(9,13,20,1),
+      rgba(4,7,12,1)
+    );
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 1.2rem;
+}
+/* IMAGE FIT */
+
+.certificateImage img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+  object-position: center;
+
+  border-radius: 18px;
+
+  transition:
+    transform 0.8s cubic-bezier(0.22,1,0.36,1),
+    filter 0.5s ease;
+}
+
+/* ACTIVE IMAGE */
+
+.ribbonStopActive .certificateImage img {
+  transform: scale(1);
+}
+
+/* SIDE IMAGE */
+
+.ribbonStop:not(.ribbonStopActive) .certificateImage img {
+  transform: scale(1.08);
+  filter: brightness(0.72);
+}
+
+/* OVERLAY */
+.cardOverlay {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 110px;
+
+  background:
+    linear-gradient(
+      180deg,
+      rgba(5,8,13,0.2),
+      rgba(5,8,13,0.96)
+    );
+
+  backdrop-filter: blur(12px);
+
+  border-top: 1px solid rgba(171,208,255,0.08);
+
+  z-index: 3;
+}
+
+/* CONTENT */
+
+.cardContent {
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  height: 110px;
+
+  padding: 1.1rem 1.4rem;
+
+  z-index: 5;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* INDEX */
+
+.cardIndex {
+  display: inline-block;
+
+  margin-bottom: 0.9rem;
+
+  font-size: 0.72rem;
+
+  letter-spacing: 0.18em;
+
+  color: rgba(178,227,255,0.68);
+}
+
+/* TITLE */
+
+.cardTitle {
+  color: white;
+
+  font-size: 1.05rem;
+  line-height: 1.25;
+  font-weight: 600;
+
+  letter-spacing: -0.02em;
+
+  max-width: 95%;
+}
+.cardIndex {
+  display: inline-block;
+
+  margin-bottom: 0.7rem;
+
+  font-size: 0.7rem;
+
+  letter-spacing: 0.18em;
+
+  color: rgba(178,227,255,0.62);
+}
+
+/* ACTIVE TITLE */
+
+.ribbonStopActive .cardTitle {
+  font-size: 1.6rem;
+}
+/* PLACEHOLDER */
+
+.imagePlaceholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imagePlaceholder span {
+  color: rgba(178,227,255,0.45);
+
+  font-size: 1rem;
+
+  letter-spacing: 0.2em;
+}
+
+/* LOADING */
+
+.loadingContainer,
+.emptyState {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  gap: 1rem;
+
+  padding: 5rem 0;
+
+  color: var(--color-text-secondary);
+}
+
+.loader {
+  width: 52px;
+  height: 52px;
+
+  border-radius: 50%;
+
+  border: 3px solid rgba(140,188,255,0.16);
+
+  border-top-color: var(--color-accent-blue);
+
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .ribbonStopActive {
+    width: 460px;
+    height: 580px;
+  }
+}
+
+@media (max-width: 768px) {
+  .certifications {
+    padding: 5rem 1.2rem;
+  }
+
+  .certificationSystem {
+    height: 640px;
+  }
+
+  .ribbonStop {
+    width: 180px;
+    height: 380px;
+  }
+
+  .ribbonStopActive {
+    width: 88vw;
+    height: 540px;
+  }
+
+  .cardContent {
+    padding: 1.1rem;
+  }
+
+  .ribbonStopActive .cardTitle {
+    font-size: 1.6rem;
+  }
+}

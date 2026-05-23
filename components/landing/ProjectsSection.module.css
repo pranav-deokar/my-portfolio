@@ -495,6 +495,258 @@
   font-size: 1.1rem;
 }
 
+.projectImageGallery {
+  margin-bottom: 1.8rem;
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.mainImage {
+  width: 100%;
+  max-height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  background: rgba(15, 20, 29, 0.4);
+}
+
+.mainImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallerySection {
+  margin-bottom: 1.8rem;
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.galleryDisplay {
+  width: 100%;
+  max-height: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  background: rgba(15, 20, 29, 0.4);
+  margin-bottom: 1rem;
+}
+
+.galleryDisplay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.galleryControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.galleryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  color: var(--color-accent-blue);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.galleryButton:hover {
+  background: rgba(140, 188, 255, 0.16);
+  border-color: rgba(178, 227, 255, 0.3);
+  box-shadow: 0 0 16px rgba(140, 188, 255, 0.12);
+  transform: scale(1.05);
+}
+
+.galleryIndicator {
+  font-size: 0.85rem;
+  color: rgba(178, 227, 255, 0.6);
+  font-weight: 500;
+  min-width: 60px;
+  text-align: center;
+}
+
+.projectImageGallery {
+  margin-bottom: 1.8rem;
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.mainImage {
+  width: 100%;
+  max-height: 320px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  background: rgba(15, 20, 29, 0.4);
+}
+
+.mainImage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.gallerySection {
+  margin-bottom: 1.8rem;
+  position: relative;
+  z-index: 1;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.galleryDisplay {
+  width: 100%;
+  max-height: 280px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  background: rgba(15, 20, 29, 0.4);
+  margin-bottom: 1rem;
+}
+
+.galleryDisplay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.galleryControls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  position: relative;
+  z-index: 2;
+}
+
+.galleryButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.2);
+  color: var(--color-accent-blue);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.galleryButton:hover {
+  background: rgba(140, 188, 255, 0.16);
+  border-color: rgba(178, 227, 255, 0.3);
+  box-shadow: 0 0 16px rgba(140, 188, 255, 0.12);
+  transform: scale(1.05);
+}
+
+.galleryIndicator {
+  font-size: 0.85rem;
+  color: rgba(178, 227, 255, 0.6);
+  font-weight: 500;
+  min-width: 60px;
+  text-align: center;
+}
+
+/* Detail Column Images */
+.projectImageContainer {
+  width: 100%;
+  max-height: 240px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(171, 208, 255, 0.12);
+  background: rgba(15, 20, 29, 0.4);
+  margin-top: 0.8rem;
+}
+
+.projectImageContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.projectGalleryContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-top: 0.8rem;
+}
+
+.galleryImageDisplay {
+  width: 100%;
+  max-height: 200px;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid rgba(171, 208, 255, 0.12);
+  background: rgba(15, 20, 29, 0.4);
+}
+
+.galleryImageDisplay img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.galleryNav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.galleryNavButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(140, 188, 255, 0.08);
+  border: 1px solid rgba(171, 208, 255, 0.15);
+  color: rgba(178, 227, 255, 0.7);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 0.9rem;
+}
+
+.galleryNavButton:hover {
+  background: rgba(140, 188, 255, 0.14);
+  border-color: rgba(178, 227, 255, 0.25);
+  color: var(--color-accent-blue);
+  transform: scale(1.08);
+}
+
+.galleryCounter {
+  font-size: 0.8rem;
+  color: rgba(178, 227, 255, 0.5);
+  font-weight: 500;
+  min-width: 50px;
+  text-align: center;
+}
+
 @media (max-width: 1180px) {
   .theatre {
     grid-template-columns: 1fr;

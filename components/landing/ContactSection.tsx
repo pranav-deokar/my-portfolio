@@ -166,7 +166,7 @@ export default function ContactSection() {
             <div className={styles.footerText}>
               <p>Copyright {new Date().getFullYear()} Pranav Balasaheb Deokar. All rights reserved.</p>
               <p className={styles.footerSubtext}>
-                Built with passion using Next.js, TypeScript, and Supabase
+                Built  using Next.js, TypeScript, and Supabase
               </p>
             </div>
             <div className={styles.footerLinks}>

@@ -117,6 +117,18 @@ export default function AchievementsSection() {
             >
               <div className={styles.spotlightGlow} />
 
+              {activeAchievement.image_url ? (
+                <div className={styles.achievementImage}>
+                  <img 
+                    src={activeAchievement.image_url} 
+                    alt={activeAchievement.title}
+                    onError={(e) => {
+                      (e.target as HTMLImageElement).style.display = 'none';
+                    }}
+                  />
+                </div>
+              ) : null}
+
               <div className={styles.spotlightHeader}>
                 <div className={styles.iconWrap}>
                   {activeAchievement.position?.toLowerCase().includes('winner') ||

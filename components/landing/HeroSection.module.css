@@ -7,6 +7,12 @@
   padding: 8rem 2rem 4rem;
   overflow: hidden;
 }
+.profileImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
 
 .heroContent {
   max-width: 1400px;
