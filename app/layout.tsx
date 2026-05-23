@@ -7,7 +7,7 @@ const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-displ
 const jetbrainsMono = JetBrains_Mono({ subsets: ['latin'], variable: '--font-mono' });
 
 export const metadata: Metadata = {
-  title: 'Pranav Balasaheb Deokar | Full-Stack Developer & AI/ML Engineer',
+  title: 'Pranav Balasaheb Deokar | Portfolio',
   description: 'B.Tech CSE student specializing in AI/ML, full-stack development, and innovative engineering solutions. CGPA: 8.93/10',
   keywords: [
     'Pranav Deokar',
@@ -36,6 +36,9 @@ export const metadata: Metadata = {
   robots: {
     index: true,
     follow: true,
+  },
+  icons: {
+    icon: "/favicon.png",
   },
 };
 
